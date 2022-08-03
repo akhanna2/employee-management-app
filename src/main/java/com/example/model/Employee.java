@@ -5,22 +5,22 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.ManyToOne;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 @Entity
-@Table(name = "Employees")
 public class Employee {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	
-	@Column(nullable=false)
+	@NotNull
 	private String firstName;
 	
-	@Column(nullable=false)
+	@NotNull
 	private String lastName;
 	
 	@Size(max=10)
@@ -29,15 +29,16 @@ public class Employee {
 	@Min(18)
 	private int age;
 	
-	@Column(nullable=false)
+	@NotNull
 	@Size(max=10)
 	private String dateJoined;
 	
-	@Column(nullable=false)
+	@NotNull
 	private String role;
 	
-	@Column(nullable=false)
-	private String department;
+	@NotNull
+	@ManyToOne
+	private Department department;
 	
 	private String supervisor;
 	
@@ -47,15 +48,18 @@ public class Employee {
 	
 	private double hourlyWage;
 	
+	@Column(unique = true)
+	@NotNull
+	@Size(min=3, max=12)
 	private String userName;
 	
 	@Size(min=8)
 	private String password;
 
-	public Employee(long id, String firstName, String lastName, @Size(max = 10) String dateOfBirth, @Min(18) int age,
-			@Size(max = 10) String dateJoined, String role, String department, String supervisor,
-			String currentProject, String workType, double hourlyWage, String userName,
-			@Size(min = 8) String password) {
+	public Employee(long id, @NotNull String firstName, @NotNull String lastName, @Size(max = 10) String dateOfBirth,
+			@Min(18) int age, @NotNull @Size(max = 10) String dateJoined, @NotNull String role,
+			@NotNull Department department, String supervisor, String currentProject, String workType,
+			double hourlyWage, @NotNull @Size(min = 3, max = 12) String userName, @Size(min = 8) String password) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
@@ -133,11 +137,11 @@ public class Employee {
 		this.role = role;
 	}
 
-	public String getDepartment() {
+	public Department getDepartment() {
 		return department;
 	}
 
-	public void setDepartment(String department) {
+	public void setDepartment(Department department) {
 		this.department = department;
 	}
 
@@ -188,6 +192,5 @@ public class Employee {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
 	
 }
