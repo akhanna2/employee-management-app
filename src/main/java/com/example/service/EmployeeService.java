@@ -5,6 +5,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.dto.EmployeeDTO;
@@ -15,7 +16,9 @@ import com.example.repo.EmployeeRepo;
 @Service
 public class EmployeeService {
 	
+	@Autowired
 	private EmployeeRepo repo;
+	@Autowired
 	private ModelMapper mapper;
 	
 	public EmployeeService(EmployeeRepo repo, ModelMapper mapper) {

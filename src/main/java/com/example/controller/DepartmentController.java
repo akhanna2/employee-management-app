@@ -36,12 +36,12 @@ public class DepartmentController {
 		return this.service.allDepartments();
 	}
 	
-	@PutMapping("/updateDepartment/{id}}")
+	@PutMapping("/updateDepartment/{id}")
 	public DepartmentDTO updateDepartment(@PathVariable long id, @RequestBody Department department) {
 		return this.service.updateDepartment(id, department);
 	}
 	
-	@DeleteMapping("/deletDepartment/{id}")
+	@DeleteMapping("/deleteDepartment/{id}")
 	public boolean deleteDepartment(@PathVariable long id) {
 		return this.service.deleteDepartment(id);
 	}
@@ -59,6 +59,21 @@ public class DepartmentController {
 	@GetMapping("/departmentByHeadOfDepartment/{name}")
 	public List<DepartmentDTO> departmentByHeadOfDepartment(@PathVariable String name) {
 		return this.service.departmentByHeadOfDepartment(name);
+	}
+	
+	@PutMapping("/updateDepartmentName/{id}")
+	public DepartmentDTO updateDepartmentName(@PathVariable long id, @RequestBody Department department) {
+		return this.service.updateDepartmentName(id, department);
+	}
+	
+	@PutMapping("/updateHeadOfDepartment/{id}")
+	public DepartmentDTO updateHeadOfDepartment(@PathVariable long id, @RequestBody Department department) {
+		return this.service.updateHeadOfDepartment(id, department);
+	}
+	
+	@PutMapping("/updateDepartmentDescription/{id}")
+	public DepartmentDTO updateDepartmentDescription(@PathVariable long id, @RequestBody Department department) {
+		return this.service.updateDepartmentDescription(id, department);
 	}
 
 }

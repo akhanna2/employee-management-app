@@ -10,6 +10,8 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 public class Employee {
 
@@ -38,6 +40,7 @@ public class Employee {
 	
 	@NotNull
 	@ManyToOne
+	@JsonBackReference
 	private Department department;
 	
 	private String supervisor;
