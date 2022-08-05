@@ -67,7 +67,7 @@ This README provides an overview of its functionality as well as instructions on
 #### Execution using Postman - CRUD:
 
 <p align="center">
-	<img src=".md/addDepartment.png" width="450">
+	<img src=".md/addDepartment.png" width="600">
 </p>
 <p align="center">
 	<img src=".md/allDepartments.png" width="450">
