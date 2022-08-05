@@ -52,7 +52,7 @@ This README provides an overview of its functionality as well as instructions on
 * Below is an outline of the project structure:
 
 <p align="center">
-	<img src=".md/projectStructure.png" width="400">
+	<img src=".md/projectStructure.PNG" width="400">
 </p> 
  
 #### Database:
@@ -67,7 +67,7 @@ This README provides an overview of its functionality as well as instructions on
 #### Execution using Postman - CRUD:
 
 <p align="center">
-	<img src=".md/addDepartment.png" width="600">
+	<img src=".md/addDepartment.png" width="450">
 </p>
 <p align="center">
 	<img src=".md/allDepartments.png" width="450">
