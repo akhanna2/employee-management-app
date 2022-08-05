@@ -83,22 +83,22 @@ This README provides an overview of its functionality as well as instructions on
 </p>
 
 <p align="center">
-	<img src="addEmployee.png" width="450">
+	<img src="./addEmployee.png" width="450">
 </p>
 <p align="center">
-	<img src="allEmployees.png" width="450">
+	<img src="./allEmployees.png" width="450">
 </p>
 <p align="center">
-	<img src="updateEmployee.png" width="450">
+	<img src="./updateEmployee.png" width="450">
 </p>
 <p align="center">
-	<img src="deleteEmployee.png" width="450">
+	<img src="./deleteEmployee.png" width="450">
 </p>
 <p align="center">
-	<img src="employeeById.png" width="450">
+	<img src="./employeeById.png" width="450">
 </p>
 <p align="center">
-	<img src="login.png" width="450">
+	<img src="./login.png" width="450">
 </p>
 
 
