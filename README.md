@@ -67,38 +67,38 @@ This README provides an overview of its functionality as well as instructions on
 #### Execution using Postman - CRUD:
 
 <p align="center">
-	<img src=".md/addDepartment.PNG" width="450">
+	<img src=".md/addDepartment.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/allDepartments.PNG" width="450">
+	<img src=".md/allDepartments.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/updateDepartment.PNG" width="450">
+	<img src=".md/updateDepartment.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/deleteDepartment.PNG" width="450">
+	<img src=".md/deleteDepartment.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/departmentById.PNG" width="450">
+	<img src=".md/departmentById.PNG" width="600">
 </p>
 
 <p align="center">
-	<img src=".md/addEmployee.PNG" width="450">
+	<img src=".md/addEmployee.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/allEmployees.PNG" width="450">
+	<img src=".md/allEmployees.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/updateEmployee.PNG" width="450">
+	<img src=".md/updateEmployee.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/deleteEmployee.PNG" width="450">
+	<img src=".md/deleteEmployee.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/employeeById.PNG" width="450">
+	<img src=".md/employeeById.PNG" width="600">
 </p>
 <p align="center">
-	<img src=".md/login.PNG" width="450">
+	<img src=".md/login.PNG" width="600">
 </p>
 
 
@@ -118,7 +118,10 @@ This README provides an overview of its functionality as well as instructions on
 * These were done using Mockito and JUnit testing.
 
 <p align="center">
-	<img src=".md/unitTesting.png" width="450">
+	<img src=".md/unitTesting.PNG" width="450">
 </p>
 
 #### What I learned from this project:
+In this project I learned how to use various Java and Spring Boot functionalities including LOMBOK, JUnit testing and being able to create a back-end API that can perform CRUD operations.
+I expected this to be quite challenging as it was the first time I did something like this and it was also done under a quick deadline.
+In the future, if given more time, I would add more operations to the CRUD functions and try to designa front-end as well.
