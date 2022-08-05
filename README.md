@@ -67,38 +67,38 @@ This README provides an overview of its functionality as well as instructions on
 #### Execution using Postman - CRUD:
 
 <p align="center">
-	<img src=".md/addDepartment.PNG" width="600">
+	<img src=".md/addDepartment.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/allDepartments.PNG" width="600">
+	<img src=".md/allDepartments.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/updateDepartment.PNG" width="600">
+	<img src=".md/updateDepartment.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/deleteDepartment.PNG" width="600">
+	<img src=".md/deleteDepartment.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/departmentById.PNG" width="600">
+	<img src=".md/departmentById.PNG" width="750">
 </p>
 
 <p align="center">
-	<img src=".md/addEmployee.PNG" width="600">
+	<img src=".md/addEmployee.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/allEmployees.PNG" width="600">
+	<img src=".md/allEmployees.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/updateEmployee.PNG" width="600">
+	<img src=".md/updateEmployee.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/deleteEmployee.PNG" width="600">
+	<img src=".md/deleteEmployee.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/employeeById.PNG" width="600">
+	<img src=".md/employeeById.PNG" width="750">
 </p>
 <p align="center">
-	<img src=".md/login.PNG" width="600">
+	<img src=".md/login.PNG" width="750">
 </p>
 
 
