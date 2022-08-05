@@ -52,14 +52,14 @@ This README provides an overview of its functionality as well as instructions on
 * Below is an outline of the project structure:
 
 <p align="center">
-	<img src="./src/main/resources/projectStructure.png" width="400">
+	<img src=".md/projectStructure.png" width="400">
 </p> 
  
 #### Database:
 * Below is an ERD diagram for the database tables:
 
 <p align="center">
-	<img src="./src/main/resources/databaseDiagram.png" width="450">
+	<img src=".md/databaseDiagram.png" width="450">
 </p>
 
 * As you can see the tables can be linked together through the Department ID
@@ -67,38 +67,38 @@ This README provides an overview of its functionality as well as instructions on
 #### Execution using Postman - CRUD:
 
 <p align="center">
-	<img src="./src/main/resources/addDepartment.png" width="450">
+	<img src=".md/addDepartment.png" width="450">
 </p>
 <p align="center">
-	<img src="./src/main/resources/allDepartments.png" width="450">
+	<img src=".md/allDepartments.png" width="450">
 </p>
 <p align="center">
-	<img src="./src/main/resources/updateDepartment.png" width="450">
+	<img src=".md/updateDepartment.png" width="450">
 </p>
 <p align="center">
-	<img src="./src/main/resources/deleteDepartment.png" width="450">
+	<img src=".md/deleteDepartment.png" width="450">
 </p>
 <p align="center">
-	<img src="./src/main/resources/departmentById.png" width="450">
+	<img src=".md/departmentById.png" width="450">
 </p>
 
 <p align="center">
-	<img src="./addEmployee.png" width="450">
+	<img src=".md/addEmployee.png" width="450">
 </p>
 <p align="center">
-	<img src="./allEmployees.png" width="450">
+	<img src=".md/allEmployees.png" width="450">
 </p>
 <p align="center">
-	<img src="./updateEmployee.png" width="450">
+	<img src=".md/updateEmployee.png" width="450">
 </p>
 <p align="center">
-	<img src="./deleteEmployee.png" width="450">
+	<img src=".md/deleteEmployee.png" width="450">
 </p>
 <p align="center">
-	<img src="./employeeById.png" width="450">
+	<img src=".md/employeeById.png" width="450">
 </p>
 <p align="center">
-	<img src="./login.png" width="450">
+	<img src=".md/login.png" width="450">
 </p>
 
 
@@ -118,7 +118,7 @@ This README provides an overview of its functionality as well as instructions on
 * These were done using Mockito and JUnit testing.
 
 <p align="center">
-	<img src="./src/main/resources/unitTesting.png" width="450">
+	<img src=".md/unitTesting.png" width="450">
 </p>
 
 #### What I learned from this project:
