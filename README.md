@@ -59,7 +59,7 @@ This README provides an overview of its functionality as well as instructions on
 * Below is an ERD diagram for the database tables:
 
 <p align="center">
-	<img src=".md/databaseDiagram.png" width="450">
+	<img src=".md/databaseDiagram.PNG" width="450">
 </p>
 
 * As you can see the tables can be linked together through the Department ID
@@ -67,38 +67,38 @@ This README provides an overview of its functionality as well as instructions on
 #### Execution using Postman - CRUD:
 
 <p align="center">
-	<img src=".md/addDepartment.png" width="450">
+	<img src=".md/addDepartment.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/allDepartments.png" width="450">
+	<img src=".md/allDepartments.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/updateDepartment.png" width="450">
+	<img src=".md/updateDepartment.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/deleteDepartment.png" width="450">
+	<img src=".md/deleteDepartment.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/departmentById.png" width="450">
+	<img src=".md/departmentById.PNG" width="450">
 </p>
 
 <p align="center">
-	<img src=".md/addEmployee.png" width="450">
+	<img src=".md/addEmployee.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/allEmployees.png" width="450">
+	<img src=".md/allEmployees.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/updateEmployee.png" width="450">
+	<img src=".md/updateEmployee.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/deleteEmployee.png" width="450">
+	<img src=".md/deleteEmployee.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/employeeById.png" width="450">
+	<img src=".md/employeeById.PNG" width="450">
 </p>
 <p align="center">
-	<img src=".md/login.png" width="450">
+	<img src=".md/login.PNG" width="450">
 </p>
 
 
